@@ -1,0 +1,29 @@
+{
+    "name": "fontis\/auspost-api-php",
+    "description": "Auspost API Client Library for PHP",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Fontis",
+            "homepage": "http:\/\/www.fontis.com.au"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "php-http\/client-common": "^2.0.0",
+        "php-http\/client-implementation": "^1.0",
+        "php-http\/discovery": "^1.6",
+        "php-http\/httplug": "^2.0",
+        "php-http\/message": "^1.7",
+        "php-http\/message-factory": "^1.0.2"
+    },
+    "require-dev": {
+        "php-http\/guzzle6-adapter": "2.0.1",
+        "phpunit\/phpunit": "7.5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "OctolizeShippingAustraliaPostVendor\\Fontis\\Auspost\\": "src\/"
+        }
+    }
+}
